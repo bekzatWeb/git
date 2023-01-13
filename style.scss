@@ -1,0 +1,402 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Nunito+Sans:wght@200;300;400;600;700;800;900&family=Open+Sans:wght@300;400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+}
+.container{
+  width: 90%;
+  margin: 0 auto;
+}
+body{
+  font-family: 'Nunito Sans', sans-serif;
+}
+#header{
+  .header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &--nav{
+      &__ac{
+        a{
+          font-weight: 600;
+          font-size: 16px;
+          color: #0B4141;
+        }
+      }
+      button{
+        padding: 12px 18px;
+        gap: 10px;
+        background: #0B4141;
+        border-radius: 124px;
+        font-weight: 600;
+        font-size: 16px;
+        color: #FFCCBC;
+      }
+    }
+  }
+}
+
+#hero{
+  .hero{
+    position: relative;
+    &--bloc1{
+      display: flex;
+      align-items: start;
+      justify-content: space-between;
+      h1{
+        width: 747px;
+        height: 256px;
+        font-weight: 400;
+        font-size: 120px;
+        line-height: 128px;
+        text-align: center;
+        color: #FFCCBC;
+      }
+    }
+    &--bloc2{
+      position: absolute;
+      z-index: 1;
+      width: 1224px;
+      height: 688px;
+      left: 108px;
+      top: 356px;
+      &__img1{
+        position: relative;
+      }
+      &__img2{
+        position: absolute;
+        z-index: 3;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        left: 524px;
+        top: 480.17px;
+        h2{
+          font-weight: 400;
+          font-size: 120px;
+          background: linear-gradient(180deg, #0B4141 45.83%, #0B1F1F 45.84%);
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          background-clip: text;
+          text-fill-color: transparent;
+        }
+      }
+    }
+  }
+}
+
+#toward{
+  .toward{
+    position: relative;
+    width: 1440px;
+    height: 800px;
+    &--img{
+      &__img1{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        &--1{
+          width: 254px;
+          height: 143.05px;
+          transform: rotate(79.38deg);
+        }
+        &--2{
+          width: 364.92px;
+          height: 205.52px;
+          transform: rotate(-15deg);
+        }
+        &--3{
+          width: 204.78px;
+          height: 115.33px;
+          transform: rotate(-25.33deg);
+        }
+      }
+      &__img2{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        &--1{
+          width: 254px;
+          height: 143.05px;
+          transform: rotate(-148.41deg);
+        }
+        &--2{
+          width: 254px;
+          height: 143.05px;
+          transform: rotate(103.94deg);
+        }
+      }
+      &__img3{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        &--1{
+          width: 405.53px;
+          height: 228.39px;
+          transform: rotate(24.53deg);
+        }
+        &--2{
+          width: 222.85px;
+          height: 125.51px;
+          transform: rotate(45deg);
+        }
+        &--3 {
+          width: 408.12px;
+          height: 229.85px;
+          transform: rotate(-154.75deg);
+        }
+      }
+    }
+    &--text{
+      position: absolute;
+      width: 1440px;
+      height: 800px;
+      background: #FFCCBC;
+      mix-blend-mode: lighten;
+      opacity: 0.2;
+      h1{
+        font-weight: 400;
+        font-size: 80px;
+        line-height: 96px;
+        text-align: center;
+        color: #FFFFFF;
+      }
+      p{
+        width: 747px;
+        height: 192px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 32px;
+        text-align: center;
+        color: #FFFFFF;
+        order: 0;
+        padding: 20px 0;
+      }
+    }
+  }
+}
+
+#choose{
+  background: #0B4141;
+  .choose{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &--left{
+      h1{
+        font-weight: 900;
+        font-size: 68px;
+        line-height: 72px;
+        color: #FFCCBC;
+      }
+      p{
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 32px;
+        color: #FFCCBC;
+        padding: 20px 0;
+      }
+      button{
+        padding: 10px 20px;
+        font-weight: 700;
+        font-size: 18px;
+        color: #FFCCBC;
+      }
+    }
+  }
+}
+
+#always{
+  .always{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &--left{
+      width: 300px;
+      height: 300px;
+      border-radius: 50%;
+      background: #FFCCBC;
+    }
+    &--rigth{
+      h1{
+        font-weight: 900;
+        font-size: 68px;
+        line-height: 72px;
+        color: #FFCCBC;
+      }
+      p{
+        width: 464px;
+        height: 224px;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 32px;
+        color: #0B4141;
+        padding: 20px 0;
+      }
+      &__icon{
+        display: flex;
+        align-items: center;
+        h2{
+          font-weight: 600;
+          font-size: 16px;
+          line-height: 22px;
+          color: #0B4141;
+        }
+      }
+    }
+  }
+}
+
+#d3{
+  .d3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &--left{
+      h1{
+        font-weight: 900;
+        font-size: 68px;
+        line-height: 72px;
+        color: #0B4141;
+      }
+      p{
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 32px;
+        color: #0B4141;
+      }
+    }
+    &--right{
+      width: 300px;
+      height: 300px;
+      border-radius: 50%;
+      background: #0B4141;
+    }
+  }
+}
+
+#let{
+  .let{
+    h1{
+      font-weight: 400;
+      font-size: 80px;
+      text-align: center;
+      color: #FFCCBC;
+    }
+    p{
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 32px;
+      text-align: center;
+      color: #0B4141;
+      order: 1;
+      span{
+        color: #0B4141;
+      }
+    }
+  }
+}
+
+#dont{
+  background: url("./img/Your product (1).png");
+}
+
+#they{
+  background: url("./img/Cornelia Confettis.png");
+  .they{
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    img{
+      margin: 10px;
+    }
+  }
+}
+
+#each{
+  .each{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &--right{
+      h1{
+        width: 506px;
+        height: 144px;
+        font-weight: 900;
+        font-size: 68px;
+        line-height: 72px;
+        color: #0B4141;
+      }
+      p{
+        width: 506px;
+        height: 128px;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 32px;
+        color: #0B4141;
+        padding: 20px 0;
+      }
+      button{
+        background: none;
+        padding: 10px 20px;
+        border: 2px solid #0B4141;
+        border-radius: 100px;
+      }
+    }
+  }
+}
+
+#exist{
+  .exist{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &--left{
+      h1{
+        font-weight: 900;
+        font-size: 68px;
+        color: #0B4141;
+      }
+      p{
+        width: 472px;
+        height: 160px;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 32px;
+        color: #0B4141;
+      }
+      button{
+        padding: 10px 20px;
+        border: 2px solid #0B4141;
+        border-radius: 100px;
+        font-weight: 700;
+        font-size: 18px;
+        color: #0B4141;
+      }
+    }
+  }
+}
+
+#footer{
+  background: #0B4141;
+  .footer{
+  h1{
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 96px;
+    text-align: center;
+    color: #FFCCBC;
+  }
+  }
+  h2{
+    font-weight: 400;
+    font-size: 20px;
+    color: #FFCCBC;
+  }
+  h3{
+    font-weight: 600;
+    font-size: 16px;
+    color: #FFCCBC;
+  }
+}
